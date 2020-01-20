@@ -9,7 +9,12 @@ if(ask == 'multiply'){
   add()
 }else if(ask == 'minus'){
   minus()
+}else{
+ console.log("Please choose one of following: multiply, divide, add or minus")
 }
+
+//convert into lowercase
+ask.toLowerCase();
 
 //functions
 function multiply(num1, num2){
